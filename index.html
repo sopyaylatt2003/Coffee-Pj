@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coffee Bar</title>
+        <link rel="stylesheet" href="./css/app.css">
+    </head>
+
+    <body>
+
+        <!-- header section  -->
+
+        <main id="app">
+            <div class="header mb-5" id="home">
+                <nav class="navbar navbar-expand-lg"
+                    id="navbar">
+                    <div class="container ">
+
+                        <a class="navbar-brand logo fs-2 fw-bold text-white"
+                            href="#home">Coffee</a>
+
+                        <div class="collapse navbar-collapse links"
+                            id="navLinks">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link active text-white text-uppercase position-relative"
+                                        aria-current="page"
+                                        href="#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link text-white text-uppercase position-relative"
+                                        href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link  text-white text-uppercase position-relative"
+                                        href="#blog">
+                                        Blog
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link text-white text-uppercase position-relative"
+                                        href="#service">Service</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link text-white text-uppercase position-relative"
+                                        href="#team">Team</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link text-white text-uppercase position-relative"
+                                        href="#contact">Contact</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <button class="btn btn-sm btn-primary me-1 d-none"
+                            id="menu-btn" onclick="open()"><i
+                                class="bi bi-list "></i></button>
+
+                        <button class="btn btn-sm btn-primary d-none" id="close"
+                            onclick="close()"><i class="bi bi-x-lg"></i></button>
+
+                    </div>
+                </nav>
+                <div class="container content mt-5 py-3 text-white">
+
+                    <h3 class="fs-3 fw-bold pt-3">Now you can feel the energy</h3>
+                    <h1 class="display-3 ">Start your day with <br>a Coffee</h1>
+
+                    <button
+                        class="coffeeBuyBtn btn btn-outline-secondary m-3 fs-4 fw-bold">Buy
+                        Now</button>
+
+                </div>
+            </div>
+
+            <!-- header section end  -->
+
+            <!-- About Section -->
+
+            <section class="about mb-5" id="about">
+                <div class="container d-flex justify-content-between">
+                    <div
+                        class="image-1 py-4 d-flex justify-content-center align-items-center">
+                        <img src="./img/img-1.webp"
+                            class=" rounded-4 img-shadow"
+                            alt>
+                    </div>
+                    <div class="about-content">
+                        <h1 class="display-4 text-secondary py-3">What makes our
+                            coffee special?</h1>
+
+                        <h3 class="fs-3 py-3 fw-bold ">Lorem ipsum dolor sit,
+                            amet
+                            consectetur tempore.</h3>
+                        <p class="fs-6 ">Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit.
+                            Numquam magnam et odit architecto obcaecati dolor
+                            doloribus iusto dolorem assumenda, rerum odio eaque
+                            totam sequi modi aspernatur, reiciendis autem.
+                            Blanditiis, temporibus.</p>
+
+                        <button
+                            class="coffeeBuyBtn btn btn-outline-secondary fs-4 fw-bold">About
+                            Us</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section End-->
+
+            <!-- Blog Section  -->
+
+            <section class="blog mb-5" id="blog">
+
+                <h1 class="heading display-3 text-center">Our <span
+                        class="text-secondary">Blog</span></h1>
+                <p class="heading-description text-center py-3 fs-3">Read
+                    our blog and know more about our
+                    latest update.</p>
+
+                <div class="container  d-flex justify-content-center">
+                    <div class="row py-4">
+                        <div class="col-sm-6 col-12 col-lg-4">
+                            <div
+                                class="card post border border-3 border-secondary rounded-3 shadow-lg">
+                                <div
+                                    class="blog-img overflow-hidden position-relative">
+                                    <img class=" card-img-top"
+                                        src="./img/blog-img-1.jpg" alt>
+                                    <span
+                                        class="bg-secondary py-1 px-2 fw-bold rounded-2 text-white fs-6 position-absolute">21
+                                        <br> Jun</span>
+                                </div>
+
+                                <div class="blog-content p-2">
+                                    <h3 class="fs-5 py-4 fw-bolder"
+                                        style="letter-spacing: 0.2rem;">By admin
+                                        |
+                                        <span class="text-secondary">John Doe</span></h3>
+                                    <h2 class="pb-3">Tasty and refresing coffee</h2>
+
+                                    <p class="text-black-50">Lorem ipsum dolor
+                                        sit
+                                        amet consectetur
+                                        adipisicing
+                                        elit. Odit ad natus deleniti.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-6 col-12 col-lg-4">
+                            <div
+                                class="card post border border-3 border-secondary rounded-3 shadow-lg">
+                                <div
+                                    class="blog-img overflow-hidden position-relative">
+                                    <img class=" card-img-top"
+                                        src="./img/blog-img-2.jpeg" alt>
+                                    <span
+                                        class="bg-secondary py-1 px-2 fw-bold rounded-2 text-white fs-6 position-absolute">21
+                                        <br> Jun</span>
+                                </div>
+
+                                <div class="blog-content p-2">
+                                    <h3 class="fs-5 py-4 fw-bolder"
+                                        style="letter-spacing: 0.2rem;">By admin
+                                        |
+                                        <span class="text-secondary">John Doe</span></h3>
+                                    <h2 class="pb-3">Tasty and refresing coffee</h2>
+
+                                    <p class="text-black-50">Lorem ipsum dolor
+                                        sit
+                                        amet consectetur
+                                        adipisicing
+                                        elit. Odit ad natus deleniti.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-12  col-lg-4">
+                            <div
+                                class="card post border border-3 border-secondary rounded-3 shadow-lg">
+                                <div
+                                    class="blog-img overflow-hidden position-relative">
+                                    <img class="card-img-top"
+                                        src="./img/blog-img-3.jpeg" alt>
+                                    <span
+                                        class="bg-secondary py-1 px-2 fw-bold rounded-2 text-white fs-6 position-absolute">21
+                                        <br> Jun</span>
+                                </div>
+
+                                <div class="blog-content p-2">
+                                    <h3 class="fs-5 py-4 fw-bolder"
+                                        style="letter-spacing: 0.2rem;">By admin
+                                        |
+                                        <span class="text-secondary">John Doe</span></h3>
+                                    <h2 class="pb-3">Tasty and refresing coffee</h2>
+
+                                    <p class="text-black-50">Lorem ipsum dolor
+                                        sit
+                                        amet consectetur
+                                        adipisicing
+                                        elit. Odit ad natus deleniti.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Blog Section Eng -->
+
+            <!-- Service section  -->
+
+            <section class="service mb-5" id="service">
+
+                <h1 class="heading display-3 text-center">Our <span
+                        class="text-secondary">Service</span></h1>
+                <p class="heading-description text-center py-3 fs-3">We deliver
+                    our products free door to door 24x7 = 360</p>
+
+                <div class="container">
+                    <div class="row d-flex g-4 mb-4">
+                        <div class="col-lg-4">
+                            <div class="service-box card">
+                                <div class="service-img">
+                                    <img class=" card-img-top"
+                                        src="./img/service-img1.webp" alt>
+                                </div>
+
+                                <div class="service-content">
+                                    <h2 class="p-3">Tasty and healty</h2>
+                                    <p class="fs-5 px-3  ">Lorem ipsum dolor
+                                        sit, amet consectetur
+                                        adipisicing elit. Eligendi, obcaecati.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="service-box card">
+                                <div class="service-img">
+                                    <img class=" card-img-top"
+                                        src="./img/service-img2.jpg" alt>
+                                </div>
+
+                                <div class="service-content">
+                                    <h2 class="p-3">Tasty and healty</h2>
+                                    <p class="fs-5 px-3 ">Lorem ipsum dolor sit,
+                                        amet consectetur
+                                        adipisicing elit. Eligendi, obcaecati.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="service-box card">
+                                <div class="service-img">
+                                    <img class=" card-img-top"
+                                        src="./img/service-img3.jpg" alt>
+                                </div>
+
+                                <div class="service-content">
+                                    <h2 class="p-3">Tasty and healty</h2>
+                                    <p class="fs-5 px-3 ">Lorem ipsum dolor sit,
+                                        amet consectetur
+                                        adipisicing elit. Eligendi, obcaecati.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row d-flex g-4">
+                        <div class="col-lg-4">
+                            <div class="service-box card">
+                                <div class="service-img">
+                                    <img class=" card-img-top"
+                                        src="./img/service-img4" alt>
+                                </div>
+
+                                <div class="service-content">
+                                    <h2 class="p-3">Tasty and healty</h2>
+                                    <p class="fs-5 px-3">Lorem ipsum dolor sit,
+                                        amet consectetur
+                                        adipisicing elit. Eligendi, obcaecati.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="service-box card">
+                                <div class="service-img">
+                                    <img class=" card-img-top"
+                                        src="./img/service-img5.jpg" alt>
+                                </div>
+
+                                <div class="service-content">
+                                    <h2 class="p-3">Tasty and healty</h2>
+                                    <p class="fs-5 px-3 ">Lorem ipsum dolor sit,
+                                        amet consectetur
+                                        adipisicing elit. Eligendi, obcaecati.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="service-box card">
+                                <div class="service-img">
+                                    <img class=" card-img-top"
+                                        src="./img/service-img6.jpg" alt>
+                                </div>
+
+                                <div class="service-content">
+                                    <h2 class="p-3">Tasty and healty</h2>
+                                    <p class="fs-5 px-3">Lorem ipsum dolor sit,
+                                        amet consectetur
+                                        adipisicing elit. Eligendi, obcaecati.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Service section end -->
+
+            <!-- Team Section  -->
+
+            <section class="team mb-5" id="team">
+                <h1 class="heading display-3 text-center">Our <span
+                        class="text-secondary">Team</span></h1>
+                <p class="heading-description text-center py-3 mb-4 fs-3">Long
+                    lasting tradition & true love for coffee</p>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="team-box w-auto pointer-event">
+                                <div
+                                    class="team-img w-100 h-auto overflow-hidden rounded-2">
+                                    <img class="w-100"
+                                        src="./img/team-img1.jpeg" alt>
+                                </div>
+                                <div class="team-content">
+                                    <h3 class="pt-3 text-white">John Deo</h3>
+                                    <p class="mb-0 text-white">Cook</p>
+
+                                    <div class="social">
+                                        <a href><i class="bi bi-facebook"></i></a>
+                                        <a href><i class="bi bi-instagram"></i></a>
+                                        <a href><i class="bi bi-twitter"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="team-box w-auto pointer-event">
+                                <div
+                                    class="team-img w-100 h-auto overflow-hidden rounded-2">
+                                    <img class="w-100"
+                                        src="./img/team-img1.jpeg" alt>
+                                </div>
+                                <div class="team-content">
+                                    <h3 class="pt-3 text-white">John Deo</h3>
+                                    <p class="mb-0 text-white">Cook</p>
+
+                                    <div class="social">
+                                        <a href><i class="bi bi-facebook"></i></a>
+                                        <a href><i class="bi bi-instagram"></i></a>
+                                        <a href><i class="bi bi-twitter"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="team-box w-auto pointer-event">
+                                <div
+                                    class="team-img w-100 h-auto overflow-hidden rounded-2">
+                                    <img class="w-100"
+                                        src="./img/team-img1.jpeg" alt>
+                                </div>
+
+                                <div class="team-content">
+                                    <h3 class="pt-3 text-white">John Deo</h3>
+                                    <p class="mb-0 text-white">Cook</p>
+
+                                    <div class="social">
+                                        <a href><i class="bi bi-facebook"></i></a>
+                                        <a href><i class="bi bi-instagram"></i></a>
+                                        <a href><i class="bi bi-twitter"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <div class="team-box w-auto ">
+                                <div
+                                    class="team-img w-100 h-auto overflow-hidden rounded-2">
+                                    <img class="w-100"
+                                        src="./img/team-img1.jpeg" alt>
+                                </div>
+
+                                <div class="team-content">
+                                    <h3 class="pt-3 text-white">John Deo</h3>
+                                    <p class="mb-0 text-white"></p>Cook</p>
+
+                                    <div class="social">
+                                        <a href><i class="bi bi-facebook"></i></a>
+                                        <a href><i class="bi bi-instagram"></i></a>
+                                        <a href><i class="bi bi-twitter"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Team Section End -->
+
+
+            <!-- Contact Section  -->
+
+            <section class="contact" id="contact">
+                <h1 class="heading display-3 text-center">Contact <span
+                    class="text-secondary">Us</span>
+                </h1>
+                <p class="heading-description text-center py-3 mb-4 fs-3">
+                    We are always here for you...
+
+                </p>
+
+                <div class="container mb-5">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="contact-box rounded-3 border border-2 border-secondary p-3">
+                                <div class="d-flex justify-content-between align-items-center py-2">
+                                    <i class="bi bi-envelope bi"></i>
+                                    <h2 class="fs-3 ">Email address <br> <span class="">Send email anytime</span></h2>
+                                </div>
+        
+                                <div class="d-flex justify-content-between align-items-center py-2">
+                                    <p class="fs-4 mb-0">sopyaylatt@gmail.com</p>
+                                    <i class="bi bi-arrow-right bi"></i>
+                                </div>
+                            </div>
+        
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="contact-box rounded-3 border border-2 border-secondary p-3">
+                                <div class="d-flex justify-content-between align-items-center py-2">
+                                    <i class="bi bi-geo-alt-fill bi"></i>
+                                    <h2 class="fs-3">Address <br> <span  class="">Find Us</span></h2>
+                                </div>
+        
+                                <div class="d-flex justify-content-between align-items-center py-2">
+                                    <p class="fs-4 mb-0">Rain , Myanmar</p>
+                                    <i class="bi bi-arrow-right bi"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="contact-box rounded-3 border border-2 border-secondary p-3">
+                                <div class="d-flex justify-content-between align-items-center py-2">
+                                    <i class="bi bi-telephone-fill bi"></i>
+                                    <h2 class="fs-3">Call Us <br> <span class="">Call us anytime</span></h2>
+                                </div>
+        
+                                <div class="d-flex justify-content-between align-items-center py-2">
+                                    <p class="fs-4 mb-0">09123456789</p>
+                                    <i class="bi bi-arrow-right bi"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Contact Section End -->
+
+            <!-- Footer Section  -->
+
+           <section class="footer" id="footer">
+            <div class="container">
+
+                <div class="row ">
+                    <div class="col-lg-4 ">
+
+                        <div class="footer-box w-100 h-auto p-3">
+                            <h3 class="text-white fs-2" style="letter-spacing: 0.2rem;">About Us</h3>
+                            <p class="text-white fs-4  py-3" style="line-height: 2.5rem;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, aperiam reiciendis quisquam molestiae rerum ipsum!</p>
+                            <p class="text-white fs-4 py-3" style="line-height: 2.5rem;">Copyrights &copy; 2023 All rights reserved By <a href="#" class="text-secondary text-decoration-none">Simplified Dev</a></p>
+        
+                        </div>
+                    </div>
+               
+
+               
+                    <div class="col-lg-4">
+                        <div class="footer-box p-3">
+                            <h3 class="text-white fs-2" style="letter-spacing: 0.2rem;">Newsletter</h3>
+                            <p class="text-white fs-4 py-3" style="line-height: 2.5rem;">Stay update with our latests</p>
+                            <form action="">
+                                <input type="email" name="email" class="footer-input" placeholder="admin@gmail" id="">
+        
+                                <button class="btn btn-sm btn-secondary p-2" type="submit"><i class="bi bi-arrow-right fs-4"></i></button>
+                            </form>
+                        </div>
+                    </div>
+              
+
+                
+                    <div class="col-lg-4">
+                        <div class="footer-box p-3">
+                            <h3 class="text-white fs-2" style="letter-spacing: 0.2rem;">Follow Us</h3>
+                            <p class="text-white fs-4  py-3" style="line-height: 2.5rem;">Content With Us On:</p>
+        
+                            <div class="social-2">
+                                <a href><i class="bi bi-facebook "></i></a>
+                                <a href><i class="bi bi-instagram"></i></a>
+                                <a href><i class="bi bi-twitter"></i></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+
+           </section>
+            <!-- Footer Section End -->
+
+        </main>
+
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./js/app.js"></script>
+    </body>
+</html>
